@@ -6,5 +6,5 @@ if i remember, ill update this whenever i add stuff
 
 ---
 
-´´´the list
-´´´
+```the list
+```
