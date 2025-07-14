@@ -28,7 +28,7 @@ html file thats displayed
 𝚛𝚎𝚊𝚍𝚖𝚎.𝚝𝚡𝚝
 this file!!!
 
-𝚖𝚎𝚘𝚠.𝚜𝚑
+𝚖𝚎𝚠𝚘.𝚜𝚑
 little startup file
 ───────────────
 go have fun with it now :)
