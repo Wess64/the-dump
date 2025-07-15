@@ -9,16 +9,6 @@ app.get('/', (req, res) => {
     res.send(html);
 });
 
-function playStartupSound() {
-    const platform = process.platform;
-
-    if (platform === 'darwin') {
-        spawn('afplay', ['start.ogg']); // macOS doesn’t support OGG with afplay
-    } else if (platform === 'linux') {
-        spawn('paplay', ['start.ogg']);
-    }
-}
-
 function startInfiniteRainbow(text) {
     let tick = 0;
     let speed = 50;
@@ -84,7 +74,6 @@ function startInfiniteRainbow(text) {
     });
 
     startLoop();
-    playStartupSound();
 }
 
 app.listen(8080, () => {
