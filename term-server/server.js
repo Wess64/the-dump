@@ -1,8 +1,7 @@
 const express = require('express');
 const fs = require('fs');
 const readline = require('readline');
-const { spawn } = require('child_process');
-                                                const app = express();
+const app = express();
 const html = fs.readFileSync('lmth.html', 'utf-8');
 
 app.get('/', (req, res) => {
